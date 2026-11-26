@@ -1,0 +1,6 @@
+{
+  "name": "Hanoi Soundscapes: Recursive Daf & Nature Sanctuary",
+  "description": "A serene generative soundscape where the recursive Tower of Hanoi algorithm drives procedural Daf frame-drum percussion and native Web Audio nature ambience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

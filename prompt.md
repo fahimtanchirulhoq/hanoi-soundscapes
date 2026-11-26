@@ -1,0 +1,466 @@
+# Complete AI Prompt Chain — Hub's Quest • Epoch 1
+
+This file contains the complete AI ideation, architecture planning, and implementation prompt chain used to create **Hanoi Soundscapes: Recursive Daf & Nature Sanctuary** for **UIU Developers Hub — Hub's Quest • Epoch 1 ("Recursive Soundscapes")**.
+
+---
+
+## Phase 1: Challenge Ideation & Prompt Engineering Log
+
+### Prompt 1 (User)
+
+```text
+HUB'S QUEST • EPOCH 1 — OFFICIAL SUBMISSION FORM
+Build something unexpected. Prove what you can do.
+
+Submit your completed Epoch 1 project using this form before the deadline. Please read the checklist below carefully before submitting—incomplete submissions may be penalized or disqualified.
+
+submission link : https://forms.gle/WNEyf6NQn25RG6B5A
+
+⏳ SUBMISSION DEADLINE
+- Thursday, 26 November 2026 at 10:00 PM (GMT+6)
+- Late submissions will not be accepted under any circumstances.
+
+⚠️ MANDATORY SUBMISSION CHECKLIST
+- Strictly Solo Work: Confirm that your submission is entirely your own individual work.
+- Public GitHub Repository: Ensure your repository is set to Public so evaluators can access and review your code.
+- Complete AI Prompt Logs: Any AI coding agent is permitted, provided your repository includes your complete prompt chain . Missing AI logs may lead to disqualification.
+- All Epoch 1 Deliverables: Make sure your live deployment link, demo video, or documentation (as required in the Challenge Brief) are working and accessible.
+
+Please double-check all links before clicking Submit. Good luck!
+
+— UIU Developers Hub      prompt ki dibo ?
+```
+
+### Response 1 (AI)
+
+Hub's Quest • Epoch 1 ("Recursive Soundscapes")-এর সব ম্যান্ডেটরি রিকোয়ারমেন্ট (Relaxation & UX 35%, Musical Quality 25%, Creative Recursion 15%, Visual Design 10%, Audio Export) পূরণ করার জন্য নিচে একটি কমপ্লিট, কপি-পেস্ট রেডি প্রম্পট দেওয়া হলো। (`Hub's Quest_ epoch 1.0.pdf`)
+
+আপনি এটি সরাসরি Lovable, Google AI Studio, ChatGPT/Codex, বা Antigravity-তে দিয়ে পুরো অ্যাপটি জেনারেট করতে পারবেন।
+
+*(সতর্কতা: আজ ২৬ নভেম্বর ২০২৬ রাত ১০টার আগেই সাবমিট করতে হবে, এবং রিপোজিটরিতে আপনার সম্পূর্ণ Prompt Chain + Agent Response অবশ্যই সেভ করে রাখতে হবে, নাহলে ডিসকোয়ালিফাই হওয়ার ঝুঁকি আছে।)*
+
+**AI Coding Agent-এর জন্য ফাইনাল প্রম্পট:**
+
+```plaintext
+Build a polished, standalone single-page creative coding web application titled "Recursive Soundscapes: Fractal Canopy & Ambient Synthesizer" using React, Tailwind CSS, HTML5 Canvas, and the native Web Audio API (no external audio files required, so everything works reliably and exports cleanly).
+
+### 1. Core Recursive Algorithm & Visual Simulation (HTML5 Canvas)
+- Implement a real-time, animated **Recursive Fractal Tree / Canopy** (and allow switching to a **Recursive Sierpinski / Golden Spiral** mode).
+- As each recursive call executes from depth `0` to `maxDepth`, animate the glowing bioluminescent branches growing smoothly on a calming, deep twilight/midnight gradient canvas (`#090d16` to `#131b2e`) with subtle floating ambient particles.
+- Highlight the currently active recursive branch/node in real time as its corresponding musical note plays, making the recursion visually and audibly synchronized.
+- Include relaxing presets at the top: "Midnight Forest", "Rainy Zen Garden", "Celestial Drift", and "Deep Focus".
+
+### 2. User-Configurable Recursion Parameters
+Provide sleek, glassmorphic minimal sliders/controls that update the simulation and music smoothly:
+- **Recursion Depth (`1` to `7`)**: Controls branching levels and harmonic complexity.
+- **Branching Factor (`2` to `4`)**: Controls polyphony and rhythmic subdivisions.
+- **Branch Angle (`15°` to `75°`)**: Modulates stereo panning and filter cutoff frequency.
+- **Decay / Length Ratio (`0.55` to `0.85`)**: Controls note duration, reverb tail, and tempo/step interval.
+- **Musical Scale Selector**: Pentatonic Major, Dorian, Lydian, and Hirajoshi (Japanese Zen scale) — ensuring every recursive output sounds inherently harmonious and relaxing.
+
+### 3. Procedural Music-Generation Engine (Web Audio API)
+Map the recursive traversal (Depth-First or Breadth-First) directly to musical elements:
+- **Pitch**: Mapped from recursion depth and branch index onto the selected soothing musical scale (root notes in warm low-mid octaves like C3–C5).
+- **Rhythm & Timing**: Trigger notes progressively along the recursive tree traversal with gentle humanization so it never sounds robotic.
+- **Timbre & Effects**: Use warm sine/triangle oscillators passed through a soft low-pass filter, stereo panner (mapped to branch left/right angle), and a lush algorithmic convolution/delay reverb.
+- **Ambient Layer**: Add an optional, toggleable procedural warm pad drone + gentle pink-noise rain/wind soundscape with its own volume slider.
+
+### 4. Playback Controls & Working Audio Export (Mandatory)
+- Clean, intuitive transport bar: **Play / Pause**, **Regenerate / Mutate**, **Master Volume**, and **Ambient Layer Volume**.
+- **Working Audio Export**: Implement a real-time or offline `MediaRecorder` / `OfflineAudioContext` WAV/WebM audio recorder button ("Record & Download Composition") with a live timer, allowing the user to download their generated relaxing track directly to their device.
+
+### 5. UI/UX & Accessibility
+- Design the interface around calm, zen-like relaxation: collapsible control panel ("Zen Mode" toggle to hide UI and enjoy full-screen visuals + sound), keyboard shortcuts (Space to Play/Pause), smooth transitions, and a brief "How Recursion Maps to Sound" tooltip/modal for judges.
+```
+
+**সাবমিশনের আগে শেষ মুহূর্তের চেকলিস্ট:**
+- **Prompt Log ফাইল:** অ্যাপ বানানোর সময় আপনি যে কয়টি প্রম্পট দেবেন এবং AI যে উত্তর/কোড দেবে, সবগুলো কপি করে GitHub রিপোজিটরির রুটে `AI_PROMPT_LOGS.md` নামে একটি ফাইলে সেভ করে রাখুন।
+- **Audio Export চেক:** ডাউনলোড বাটনে ক্লিক করে নিশ্চিত হোন যে অডিও ফাইলটি সত্যিই ডাউনলোড হচ্ছে এবং প্লে করলে সাউন্ড শোনা যাচ্ছে।
+- **Live Link + Public Repo:** Vercel/Netlify বা Lovable-এর লাইভ লিংকটি ইনকগনিটো ব্রাউজারে খুলে চেক করুন এবং GitHub রিপোজিটরি Public আছে কি না নিশ্চিত হয়ে রাত ১০টার আগেই ফর্ম সাবমিট করুন।
+
+আপনি কি এটি Lovable / AI Studio-তে চালাবেন, নাকি সিঙ্গেল ফাইল (`index.html`) হিসেবে এখনই কোড জেনারেট করে দেব?
+
+---
+
+### Prompt 2 (User)
+
+```text
+Bangla koro ki kaj , ki project , ki prompt ?
+```
+
+### Response 2 (AI)
+
+সহজ বাংলায় পুরো বিষয়টি নিচে ভেঙে বুঝিয়ে দিচ্ছি:
+
+**১. কী কাজ? (চ্যালেঞ্জটা কী)**
+UIU Developers Hub-এর Hub's Quest • Epoch 1 হলো একটি একক (Solo) ক্রিয়েটিভ কোডিং হ্যাকাথন, যার নাম **"Recursive Soundscapes"**।
+
+- **মূল চ্যালেঞ্জ:** একটি Recursive Function (রিকার্সিভ অ্যালগরিদম)-কে এমন একটি ইন্টারঅ্যাকটিভ ওয়েব অ্যাপে রূপান্তর করতে হবে যা রিকার্সনের ধাপগুলোকে ভিজ্যুয়ালি (অ্যানিমেশনের মাধ্যমে) দেখাবে এবং একই সাথে সেই গাণিতিক ধাপগুলো থেকে একটি রিল্যাক্সিং বা প্রশান্তিদায়ক মিউজিক (সুর, তাল ও অ্যাম্বিয়েন্ট সাউন্ড) তৈরি করবে।
+- **ডেডলাইন:** আজ, ২৬ নভেম্বর ২০২৬ রাত ১০:০০টা (হাতে প্রায় ৯ ঘণ্টা সময় আছে)।
+
+**২. কী প্রজেক্ট বানাতে হবে? (বাধ্যতামূলক ৬টি বিষয়)**
+আপনার ওয়েব অ্যাপটিতে অবশ্যই নিচের ৬টি ফিচার থাকতে হবে:
+1. **রিকার্সিভ অ্যালগরিদম:** এমন একটি রিকার্সিভ ফাংশন (যেমন: Fractal Tree বা Golden Spiral) যার প্যারামিটার (যেমন: Depth, Angle, Branching) ইউজার স্লাইডার দিয়ে বদলাতে পারবেন।
+2. **ভিজ্যুয়াল সিমুলেশন:** রিকার্সিভ ফাংশনটি যেভাবে ডালপালা বা প্যাটার্ন তৈরি করছে, তা স্ক্রিনে সুন্দর অ্যানিমেশন হিসেবে দেখা যাবে।
+3. **মিউজিক জেনারেশন:** রিকার্সনের প্রতিটি ধাপ (যেমন: গভীরতা বা শাখার কোণ) থেকে অটোমেটিক সুর (Pitch), তাল (Rhythm) ও সাউন্ড ইফেক্ট তৈরি হবে।
+4. **প্লেব্যাক কন্ট্রোল:** মিউজিক প্লে, পজ (Play/Pause) এবং ভলিউম কমানো-বাড়ানোর বাটন।
+5. **অডিও এক্সপোর্ট (Download):** ইউজার যে রিল্যাক্সিং মিউজিকটি তৈরি করবেন, সেটি অডিও ফাইল হিসেবে ডাউনলোড করার বাটন।
+6. **রিল্যাক্সিং ডিজাইন:** পুরো অ্যাপটির লুক ও সাউন্ড এমন হতে হবে যেন ব্যবহারকারীর মন শান্ত হয় (নম্বর বণ্টনে এর ওপরই ৩৫% + ২৫% = ৬০% মার্কস)।
+
+**৩. কী প্রম্পট দেবেন? (আগের প্রম্পটটির বাংলা সারমর্ম)**
+আগের ইংরেজি প্রম্পটটি মূলত AI কোডিং এজেন্টকে (যেমন: Lovable, Google AI Studio, বা ChatGPT) নিচের নির্দেশগুলো দেওয়ার জন্য তৈরি করা হয়েছে:
+- **অ্যাপের নাম ও থিম:** `"Recursive Soundscapes: Fractal Canopy & Ambient Synthesizer"` নামে একটি ডার্ক-মোড, শান্ত ও নান্দনিক ওয়েব অ্যাপ বানাতে বলা হয়েছে—যেখানে কোনো এক্সটার্নাল MP3 ফাইল ছাড়াই ব্রাউজারের নিজস্ব Web Audio API দিয়ে সুর তৈরি হবে (যাতে কোনো সাউন্ড বা অডিও ডাউনলোড এরর না হয়)।
+- **ভিজ্যুয়াল ও রিকার্সন:** স্ক্রিনে একটি উজ্জ্বল Fractal Tree (রিকার্সিভ গাছ) ধীরে ধীরে বড় হবে এবং যে ডালটি তৈরি হবে, ঠিক সেই মুহূর্তে তার সুর বাজবে।
+- **ইউজার কন্ট্রোল:** ইউজার যেন Recursion Depth (১–৭), Branching Factor (২–৪), Angle, এবং মিউজিক স্কেল (যেমন: Pentatonic, Japanese Zen scale—যা সবসময় শুনতে মধুর লাগে) পরিবর্তন করতে পারেন।
+- **ব্যাকগ্রাউন্ড অ্যাম্বিয়েন্ট সাউন্ড ও এক্সপোর্ট:** সুরের পেছনে হালকা বৃষ্টি বা বাতাসের শব্দ যোগ করার অপশন এবং `"Record & Download Composition"` বাটনের মাধ্যমে তৈরি হওয়া মিউজিকটি ফোনে/পিসিতে ডাউনলোড করার ব্যবস্থা।
+
+**সাবমিশনের সবচেয়ে জরুরি নিয়ম (ভুললে ডিসকোয়ালিফাই):**
+যে AI এজেন্ট (Lovable / ChatGPT / AI Studio) দিয়েই কোড বানান না কেন, আপনি কী কী প্রম্পট দিয়েছেন এবং AI কী কী উত্তর/কোড দিয়েছে, তার সম্পূর্ণ লগ কপি করে আপনার Public GitHub Repository-তে একটি ফাইলে (যেমন: `AI_PROMPT_LOGS.md`) রেখে দিতে হবে।
+
+আপনি কি এখন Lovable বা AI Studio-তে ওই ইংরেজি প্রম্পটটি পেস্ট করে অ্যাপটি জেনারেট করতে যাচ্ছেন?
+
+---
+
+### Prompt 3 (User)
+
+```text
+ekhn page count , module , mvp architecture , file folder directory , stack egula to lahbe , ui ux important
+```
+
+### Response 3 (AI)
+
+আজ রাত ১০টায় ডেডলাইন (হাতে প্রায় ৭ ঘণ্টা ৫০ মিনিট সময় আছে), তাই মাল্টি-পেজ রাউটিং বা ভারী ব্যাকএন্ডের ঝামেলায় না গিয়ে **Single-Page Immersive Canvas Architecture (1-Page App)** নেওয়াই সবচেয়ে বুদ্ধিমানের কাজ—কারণ ইভ্যালুয়েশনে Relaxation & UX (35%) এবং Musical Quality (25%)-এ মোট ৬০% নম্বর।
+
+আপনার Recursive Soundscapes অ্যাপের পূর্ণাঙ্গ ব্লুপ্রিন্ট ও AI এজেন্টকে দেওয়ার জন্য আপগ্রেডেড আর্কিটেকচার স্পেসিফিকেশন নিচে দেওয়া হলো:
+
+**১. Page Count & Layout (১টি সিঙ্গেল ইমার্সিভ পেজ + ২টি ওভারলে)**
+- **Page 1 — Main Soundscape Studio (`/`):** পুরো স্ক্রিনজুড়ে থাকবে ডার্ক-মোড ইন্টারঅ্যাকটিভ ক্যানভাস (১০০% ভিউপোর্ট), যেখানে রিকার্সিভ ফ্যাক্টাল গাছ/স্পাইরাল অ্যানিমেট হবে। নিচে ফ্লোটিং গ্লাসমর্ফিক ট্রান্সপোর্ট বার (Play/Pause, Record/Download, Zen Mode) এবং ডান পাশে কলাপসিবল প্যারামিটার ড্রয়ার।
+- **Overlay 1 — "How Recursion Maps to Sound" Modal:** জাজদের জন্য একটি ছোট ক্লিন মডাল, যেখানে ডায়াগ্রামসহ দেখানো থাকবে কীভাবে `depth`, `branchAngle`, এবং `decayRatio` যথাক্রমে Pitch, Stereo Pan এবং Note Duration-এ রূপান্তরিত হচ্ছে।
+- **Overlay 2 — Zen Mode (Zero-UI View):** একটি বাটন চাপলেই সব স্লাইডার ও বাটন লুকিয়ে যাবে; শুধু স্ক্রিনে রিকার্সিভ ভিজ্যুয়াল ও প্রশান্তিদায়ক সুর চলবে (Relaxation UX-এ সর্বোচ্চ নম্বর পাওয়ার জন্য)।
+
+**২. Core Modules (৫টি মডিউল)**
+- **RecursionEngine (Pure Math Module):** ইউজারের দেওয়া প্যারামিটার (`depth`, `branchingFactor`, `angle`, `decay`) নিয়ে রিকার্সিভ ট্রি বা গোল্ডেন স্পাইরালের নোড ও এজ (Nodes & Edges) এবং তাদের ট্রাভার্সাল অর্ডার (DFS / BFS) জেনারেট করবে।
+- **CanvasRenderer (Visual Simulation Module):** ৬০ FPS-এ HTML5 Canvas-এ বায়োলুমিনেসেন্ট ডালপালা ড্র করবে, ব্যাকগ্রাউন্ডে ভাসমান পার্টিকেল চালাবে এবং ঠিক যে নোডটির নোট বাজছে সেটিকে উজ্জ্বল (Glow/Pulse) করবে।
+- **ProceduralAudioEngine (Web Audio API Module):** কোনো এক্সটার্নাল MP3 ছাড়াই সিন্থেসাইজার (Sine/Triangle অসিলেটর + Low-pass Filter + Stereo Panner + Algorithmic Reverb) এবং ব্যাকগ্রাউন্ড অ্যাম্বিয়েন্ট ড্রোন ও বৃষ্টির শব্দ (Pink Noise) জেনারেট করবে।
+- **AudioExportModule (Recording & Download Module):** Web Audio API-এর আউটপুট স্ট্রিমকে MediaRecorder / WAV এনকোডারের মাধ্যমে রেকর্ড করে সরাসরি `.wav` বা `.webm` অডিও ফাইল হিসেবে ডাউনলোড করাবে।
+- **PresetAndStateModule (UX & Presets Module):** এক ক্লিকে মুড বদলানোর জন্য ৪টি প্রিসেট (Midnight Forest, Rainy Zen Garden, Celestial Drift, Deep Focus) এবং কীবোর্ড শর্টকাট (`Space` = Play/Pause, `Z` = Zen Mode) হ্যান্ডেল করবে।
+
+**৩. MVP Architecture (Client-Side Zero-Backend Flow)**
+কোনো সার্ভার বা API-এর ল্যাটেন্সি ছাড়াই ব্রাউজারে রিয়েল-টাইম সিঙ্ক্রোনাইজেশন নিশ্চিত করার আর্কিটেকচার:
+
+```plaintext
+[User Controls / Presets] 
+       │
+       ▼
+[RecursionEngine] ──(Generates Node Tree & Traversal Queue)──┐
+       │                                                     │
+       ▼ (Visual Coordinates)                                ▼ (Depth, Angle, Branch Index)
+[CanvasRenderer (60fps)] ◄──(Sync Pulse / Active Node)──► [ProceduralAudioEngine (Web Audio API)]
+                                                             │
+                                                             ▼
+                                                    [Master Gain Node]
+                                                     ├──► [Device Speakers]
+                                                     └──► [AudioExportModule] ──► (.wav/.webm Download)
+```
+
+**৪. Tech Stack (সবচেয়ে দ্রুত ও নির্ভরযোগ্য স্ট্যাক)**
+- **Frontend Framework:** React 18 + TypeScript + Vite (Lovable বা AI Studio-র ডিফল্ট ও সবচেয়ে ফাস্ট স্ট্যাক)
+- **Styling & UI/UX:** Tailwind CSS + Lucide React Icons (Glassmorphism UI: `backdrop-blur-md`, ডার্ক টোয়াইলাইট প্যালেট `#080c14` ও সফট সায়ান/অ্যাম্বার অ্যাকসেন্ট)
+- **Graphics:** Native HTML5 2D Canvas API (কোনো ভারী 3D লাইব্রেরি ছাড়াই স্মুথ অ্যানিমেশন)
+- **Audio & Export:** Native Web Audio API + MediaRecorder / `audiobuffer-to-wav`
+- **Deployment:** Vercel বা Netlify (GitHub রিপো কানেক্ট করলে ২ মিনিটে লাইভ লিংক তৈরি হবে)
+
+**৫. File & Folder Directory Structure**
+
+```plaintext
+recursive-soundscapes/
+├── AI_PROMPT_LOGS.md          # [MANDATORY] সব প্রম্পট ও AI রেসপন্সের সম্পূর্ণ লগ
+├── README.md                  # প্রজেক্টের বর্ণনা, লাইভ লিংক, রিকার্সন ম্যাপিং ব্যাখ্যা
+├── package.json
+├── index.html
+└── src/
+    ├── main.tsx
+    ├── App.tsx                # মেইন ১-পেজ লেআউট ও স্টেট কন্ট্রোলার
+    ├── index.css              # Tailwind ও কাস্টম গ্লাসমর্ফিক/অ্যানিমেশন স্টাইল
+    ├── types/
+    │   └── soundscape.ts      # RecursionParams, Node, Scale টাইপ ডেফিনিশন
+    ├── engine/
+    │   ├── recursionEngine.ts # রিকার্সিভ ফ্যাক্টাল ট্রি ও স্পাইরাল অ্যালগরিদম
+    │   ├── audioEngine.ts     # Web Audio API সিন্থ, রিভার্ব ও অ্যাম্বিয়েন্ট সাউন্ড
+    │   ├── scales.ts          # Pentatonic, Dorian, Lydian, Hirajoshi ফ্রিকোয়েন্সি ম্যাপিং
+    │   └── audioExporter.ts   # অডিও রেকর্ডিং ও ডাউনলোড লজিক
+    ├── components/
+    │   ├── SoundscapeCanvas.tsx # HTML5 Canvas রিকার্সিভ ভিজ্যুয়ালাইজার ও পার্টিকেল
+    │   ├── ControlDrawer.tsx    # স্লাইডার (Depth, Branching, Angle, Decay, Scale)
+    │   ├── TransportBar.tsx     # Play/Pause, Record/Download, Volume, Zen Mode বাটন
+    │   ├── PresetBar.tsx        # ৪টি রিল্যাক্সিং প্রিসেট বাটন
+    │   └── InfoModal.tsx        # জাজদের জন্য "How Recursion Maps to Sound" মডাল
+```
+
+**UI/UX-এ সর্বোচ্চ নম্বর পাওয়ার ৩টি টিপস:**
+- **ক্লিক করলেই সাউন্ড চালু:** ব্রাউজারের অটোপ্লে পলিসির কারণে শুরুতে স্ক্রিনের মাঝখানে একটি সুন্দর `"Enter Soundscape"` বাটন রাখবেন, যাতে ক্লিক করলেই AudioContext আনলক হয়ে সুর ও অ্যানিমেশন একসাথে শুরু হয়।
+- **সুখশ্রাব্য স্কেল লক:** মিউজিক স্কেল হিসেবে Pentatonic বা Hirajoshi ডিফল্ট রাখবেন—এতে ইউজার যে প্যারামিটারই দিন না কেন, কখনোই বেসুরো (dissonant) শব্দ হবে না।
+- **রেসপন্সিভ ও ক্লিন:** ফন্ট হিসেবে পরিচ্ছন্ন Sans-serif (Inter বা Plus Jakarta Sans) এবং কন্ট্রোল প্যানেলে যথেষ্ট স্পেসিং রাখবেন যাতে অ্যাপটি দেখতে একটি প্রিমিয়াম মেডিটেশন অ্যাপের মতো লাগে।
+
+আপনি কি এই আর্কিটেকচার ও ফোল্ডার স্ট্রাকচার অনুযায়ী AI এজেন্টকে দেওয়ার ফাইনাল কমান্ড প্রম্পটটি এখন কপি করে কাজ শুরু করবেন?
+
+---
+
+### Prompt 4 (User)
+
+```text
+Ar hocche ami haram music banate cai na , emn music jeta halal hobe , dof er moto
+```
+
+### Response 4 (AI)
+
+দারুণ একটি সিদ্ধান্ত! আপনি কোনো বাদ্যযন্ত্রের সুর (melodic instruments/synth) ব্যবহার না করে সম্পূর্ণ হালাল পারকাশন (**Daf / দফ**) এবং প্রাকৃতিক সাউন্ডস্কেপ (**Nature Sounds:** বৃষ্টি, বাতাস, ঝরনা, পাখির ডাক) দিয়ে এই রিকার্সিভ সাউন্ডস্কেপ বানাতে পারবেন।
+
+এতে একইসাথে আপনার ধর্মীয় মূল্যবোধ পুরোপুরি বজায় থাকবে, আবার হ্যাকাথনের "Relaxing Soundscape & Rhythm" এবং Creative Recursion-এর সব রিকোয়ারমেন্টও চমৎকারভাবে পূরণ হবে!
+
+**দফ (Daf) ও প্রকৃতির শব্দে রিকার্সন যেভাবে কাজ করবে:**
+- **রিকার্সিভ তাল ও ছন্দ (Recursive Daf Rhythm):**
+  - গাছের মূল কাণ্ড বা প্রথম ধাপ (`depth = 0`) থেকে দফের গভীর বেস আঘাত (*Dum*) তৈরি হবে।
+  - শাখা যত ভাগ হতে থাকবে (`depth = 1, 2, 3...`), দফের কিনারার হালকা টাক (*Tak*) এবং রিং বা জিংগল (*Jingle/Shake*)-এর ছন্দ তৈরি হবে—যা শুনতে ঠিক একটি প্রশান্তিদায়ক সুফি বা আরবীয় দফ রিদমের মতো লাগবে।
+- **প্রাকৃতিক অ্যাম্বিয়েন্ট লেয়ার (100% Halal Nature Soundscape):**
+  - কোনো সিন্থেসাইজার প্যাড বা মেলোডি ইনস্ট্রুমেন্টের বদলে ব্যাকগ্রাউন্ডে থাকবে মৃদু বৃষ্টির রিমঝিম শব্দ (Gentle Rain), বাতাসের স্রোত (Soft Wind) এবং পানির কলকল ধ্বনি (Flowing Stream)—যা রিকার্সিভ গাছের নড়াচড়ার সাথে সাথে কমবে-বাড়বে।
+
+**AI Coding Agent-এর জন্য আপগ্রেডেড প্রম্পট (100% Daf Percussion & Nature Soundscape):**
+
+```plaintext
+Build a polished, standalone single-page creative coding web application titled "Recursive Soundscapes: Daf Rhythms & Nature Sanctuary" using React, Tailwind CSS, HTML5 Canvas, and the native Web Audio API (100% procedural Web Audio synthesis, no external audio files needed).
+
+CRITICAL AUDIO CONSTRAINT (NO MELODIC INSTRUMENTS):
+Do NOT use any melodic instruments, pianos, flutes, strings, or tonal synthesizer pads. Instead, build a 100% percussive and natural soundscape centered around the traditional **Daf (frame drum)** percussion and soothing **nature ambience** (gentle rain, soft wind, flowing water).
+
+### 1. Core Recursive Algorithm & Visual Simulation (HTML5 Canvas)
+- Implement a real-time, animated **Recursive Fractal Canopy / Geometric Mandala** on a calming, deep twilight/emerald-night gradient canvas (`#060d0c` to `#0e1f1c`) with floating bioluminescent fireflies/raindrops.
+- As each recursive call executes from `depth = 0` to `maxDepth`, animate the branches/geometric rings expanding smoothly.
+- Highlight the currently active recursive node/branch in real time with a warm golden/emerald ripple pulse exactly when its corresponding Daf beat or nature sound triggers.
+- Include 4 relaxing presets: "Midnight Rain & Daf", "Desert Breeze Rhythm", "Forest Stream Meditation", and "Deep Focus Pulse".
+
+### 2. User-Configurable Recursion Parameters
+Provide sleek, glassmorphic minimal controls:
+- **Recursion Depth (`1` to `6`)**: Controls rhythmic subdivision layers (from slow heartbeat pulses to intricate polyrhythms).
+- **Branching Factor (`2` to `4`)**: Controls beat groupings (duple, triple, or quadruple rhythmic cycles).
+- **Branch Angle (`15°` to `75°`)**: Modulates stereo panning (left-to-right spatial movement of the Daf hits) and acoustic room resonance.
+- **Decay / Tempo Ratio (`0.55` to `0.85`)**: Controls drum decay tail and overall rhythmic tempo (BPM between 50–85 BPM for deep relaxation).
+- **Rhythm Mode Selector**: "Meditative Heartbeat", "Rolling Polyrhythm", "Fibonacci Pulse", and "Gentle Cascade".
+
+### 3. Procedural Daf & Nature Audio Engine (Web Audio API)
+Synthesize realistic, warm Daf frame-drum acoustics and nature sounds purely via Web Audio API:
+- **Daf "Dum" (Deep Bass Strike — triggered at low recursion depths `0-1`)**: Synthesize using a warm, pitch-enveloped low sine/triangle thump (110Hz dropping smoothly to 55Hz) with soft skin resonance.
+- **Daf "Tak" (Crisp Rim Strike — triggered at mid depths `2-3`)**: Synthesize using a filtered high-mid transient + short band-pass noise burst (800Hz–1400Hz) for an authentic goatskin drum rim tap.
+- **Daf "Zinj / Shimmer" (Soft Frame Jingle — triggered at outer leaf depths `4+`)**: Very gentle, low-volume high-pass filtered metallic shimmer/shaker with soft stereo panning.
+- **Nature Ambience Layer (Toggleable with Volume Slider)**: Procedural gentle pink-noise rainfall + slow LFO-modulated wind breeze + subtle water droplet ripples.
+- **Acoustic Space**: Route the Daf hits through a warm stereo panner and a soft algorithmic convolution reverb so it sounds like playing inside a peaceful courtyard.
+
+### 4. Playback Controls & Working Audio Export (Mandatory)
+- Clean floating transport bar: **Play / Pause** (Spacebar shortcut), **Regenerate Pattern**, **Daf Volume**, **Nature Ambience Volume**, and **Zen Mode** (hides all UI panels for pure visual + audio relaxation).
+- **Working Audio Export**: Implement a real-time `MediaRecorder` / WAV recorder button ("Record & Download Audio") with a live timer that captures the master Web Audio stream and downloads the composition directly as a `.wav` or `.webm` file.
+- Include a clean **"How Recursion Maps to Rhythm"** info modal explaining how recursive depth, branching, and angles generate the Daf beats and spatial audio.
+```
+
+এই প্রম্পটটি ব্যবহার করলে আপনার প্রজেক্টটি ১০০% হালাল (শুধু দফ ও প্রকৃতির শব্দ) থাকবে এবং একই সাথে হ্যাকাথনের বিচারকদের কাছেও এটি একটি অত্যন্ত ইউনিক ও সৃষ্টিশীল (Creative) আইডিয়া হিসেবে প্রশংসিত হবে। এখনই এটি Lovable বা AI Studio-তে দিয়ে কাজ শুরু করে দিন!
+
+---
+
+### Prompt 5 (User)
+
+```text
+html , talwind css, js , react use korte cai .backend /db lagbe ? no heavy framework , but app wil be professional .
+```
+
+### Response 5 (AI)
+
+না, কোনো ব্যাকএন্ড (Backend) বা ডাটাবেস (Database) একদমই লাগবে না।
+
+এই হ্যাকাথন চ্যালেঞ্জের (Hub's Quest • Epoch 1) কোনো রিকোয়ারমেন্টেই ইউজার লগইন বা সার্ভার ডাটাবেসের কথা বলা নেই। বরং পুরো অ্যাপটি ১০০% Client-Side (React + Tailwind CSS + JavaScript) বানালে দুটি বড় সুবিধা পাবেন:
+
+- **জিরো ল্যাটেন্সি ও প্রফেশনাল পারফরম্যান্স:** দফ (Daf)-এর তাল ও ক্যানভাস অ্যানিমেশনের সিঙ্ক্রোনাইজেশন ব্রাউজারের ভেতরেই (Web Audio API + HTML5 Canvas) ঘটবে, ফলে কোনো সার্ভার ডিলে ছাড়াই অ্যাপটি একদম প্রফেশনাল মিউজিক সফটওয়্যারের মতো স্মুথ চলবে।
+- **২ মিনিটে ফ্রি লাইভ ডিপ্লয়মেন্ট:** ব্যাকএন্ড না থাকায় কোড শেষ হওয়ার পর Vercel বা Netlify-তে GitHub রিপোজিটরি কানেক্ট করলেই কোনো সার্ভার কনফিগারেশন ছাড়াই লাইভ লিংক তৈরি হয়ে যাবে। (ইউজারের পছন্দের প্রিসেট বা কাস্টম সেটিংস সেভ রাখার দরকার হলে ব্রাউজারের বিল্ট-ইন `localStorage` ব্যবহার করলেই যথেষ্ট)।
+
+আপনার পছন্দের HTML + Tailwind CSS + JavaScript + React স্ট্যাকের সাথে সম্পূর্ণ মিলিয়ে নিচের ফাইনাল প্রম্পটটি তৈরি করে দিলাম:
+
+```plaintext
+Build a professional, studio-grade single-page creative coding web application titled "Recursive Soundscapes: Daf Rhythms & Nature Sanctuary" using React (JavaScript, no TypeScript overhead), HTML5 Canvas, Tailwind CSS, and the native Web Audio API.
+
+ARCHITECTURE & STACK CONSTRAINTS:
+- 100% Frontend / Client-Side only (No backend, no database, no external audio files). Use browser `localStorage` to save user's last selected preset/settings.
+- Lightweight & fast: Use standard React hooks (`useState`, `useEffect`, `useRef`, `useCallback`), Tailwind CSS for glassmorphic studio UI, and Lucide icons.
+- STRICT AUDIO RULE (100% HALAL): Do NOT use any melodic instruments, pianos, flutes, strings, or tonal synthesizer pads. Use ONLY procedural **Daf (frame drum)** percussion and soothing **nature ambience** (gentle rain, soft wind, flowing water) synthesized natively via Web Audio API.
+
+### 1. Visual Simulation (HTML5 Canvas — 60 FPS)
+- Render a smooth, animated **Recursive Fractal Canopy / Geometric Mandala** on a calming deep emerald-twilight background (`#060d0c` to `#0e1f1c`) with subtle floating fireflies/rain particles.
+- As each recursive step executes from `depth = 0` to `maxDepth`, highlight the active branch/node in real time with a warm golden-emerald ripple pulse synchronized with the exact Daf strike.
+- Include 4 one-click relaxing presets: "Midnight Rain & Daf", "Desert Breeze Rhythm", "Forest Stream Meditation", and "Deep Focus Pulse".
+
+### 2. User-Configurable Recursion Controls
+- Clean, collapsible glassmorphic control drawer with smooth sliders:
+  - **Recursion Depth (`1` to `6`)**: Controls rhythmic subdivision layers.
+  - **Branching Factor (`2` to `4`)**: Controls beat groupings (duple, triple, quadruple).
+  - **Branch Angle (`15°` to `75°`)**: Modulates stereo panning (left-to-right spatial audio) and acoustic room resonance.
+  - **Decay / Tempo Ratio (`0.55` to `0.85`)**: Controls drum decay tail and calming tempo (50–85 BPM).
+  - **Rhythm Pattern Mode**: "Meditative Heartbeat", "Rolling Polyrhythm", "Fibonacci Pulse", and "Gentle Cascade".
+
+### 3. Procedural Daf & Nature Web Audio Engine
+- **Daf "Dum" (Deep Bass Strike — depth `0-1`)**: Pitch-enveloped warm low sine/triangle thump (110Hz to 55Hz) with soft skin resonance.
+- **Daf "Tak" (Crisp Rim Strike — depth `2-3`)**: Filtered high-mid transient + short band-pass noise burst (800Hz–1400Hz).
+- **Daf "Zinj / Shimmer" (Soft Frame Jingle — depth `4+`)**: Gentle, low-volume high-pass filtered shimmer with stereo panning.
+- **Nature Ambience Layer (Toggleable + Volume Slider)**: Procedural pink-noise rainfall + slow LFO wind breeze + subtle water droplets.
+- Route all Daf strikes through a stereo panner and a soft algorithmic convolution reverb.
+
+### 4. Playback & Working Audio Export (Mandatory)
+- Floating bottom transport bar: **Play / Pause** (`Space` shortcut), **Regenerate Pattern**, **Daf Volume**, **Nature Volume**, and **Zen Mode** (`Z` shortcut — hides all UI panels for full-screen visual + audio meditation).
+- **Working Audio Export**: A "Record & Download Audio" button with a live timer using `MediaRecorder` connected to the Web Audio `MediaStreamDestination` so users can download their generated composition directly as an audio file.
+- Include a clean **"How Recursion Maps to Rhythm"** info modal explaining the math-to-rhythm mapping for evaluators.
+```
+
+এখন রাত ১০টার আগে হাতে প্রায় সাড়ে ৭ ঘণ্টা সময় আছে—এই প্রম্পটটি দিয়ে কোড জেনারেট করে ফেলুন, আর প্রথম প্রম্পট থেকেই প্রতিটি প্রম্পট ও AI-এর উত্তর একটি `AI_PROMPT_LOGS.md` ফাইলে কপি করে রাখতে ভুলবেন না।
+
+---
+
+### Prompt 6 (User)
+
+```text
+konta use korba ? এমন একটি রিকার্সিভ ফাংশন (যেমন: Fractal Tree বা Golden Spiral) যার প্যারামিটার (যেমন: Depth, Angle, Branching) ইউজার স্লাইডার দিয়ে বদলাতে পারবেন। naki basic ? egula deo ache rules e ?
+```
+
+### Response 6 (AI)
+
+না, কোনো নির্দিষ্ট ফাংশনের নাম রুলসে বেঁধে দেওয়া নেই—যেকোনো রিকার্সিভ ফাংশনই নেওয়া যাবে। চ্যালেঞ্জের নিয়ম অনুযায়ী শুধু "Choose a recursive function" এবং ইউজার যেন সেই রিকার্সনের প্যারামিটারগুলো নিজের মতো কনফিগার (Configure) করতে পারেন—এই শর্তটুকুই দেওয়া আছে।
+
+**বেসিক রিকার্সন বনাম ভিজ্যুয়াল রিকার্সন (কোনটি নেবেন?)**
+- **বেসিক রিকার্সন (যেমন: Factorial, Fibonacci সংখ্যা, বা সাধারণ Binary Search) নিলে কী সমস্যা:** এগুলোর গাণিতিক ধাপগুলো স্ক্রিনে দেখাতে গেলে শুধু কিছু সংখ্যা বা বক্স দেখা যাবে—যা দেখতে মোটেও রিলাক্সিং বা নান্দনিক লাগে না। অথচ এই প্রতিযোগিতায় Relaxation & UX (৩৫%) এবং Visual Design (১০%)-এ মোট ৪৫% নম্বর।
+- **Fractal Tree / Recursive Mandala নিলে কী সুবিধা:**
+  - এর ভেতরের কোড কিন্তু একদমই বেসিক রিকার্সন (একটি ফাংশন নিজেকেই `depth - 1` দিয়ে ২ বা ৩ বার কল করবে—মাত্র ১৫–২০ লাইনের কোড)।
+  - কিন্তু আউটপুট হিসেবে স্ক্রিনে একটি জীবন্ত, প্রশান্তিদায়ক গাছের ডালপালা বা জ্যামিতিক মণ্ডল ফুটে ওঠে, এবং ইউজার Depth, Angle, Branching স্লাইডার দিয়ে বদলালেই পুরো ছন্দ ও ছবি চোখের সামনে বদলে যায়—যা Creative use of recursion (১৫%) ও Relaxation (৩৫%) দুটোতেই পূর্ণ নম্বর এনে দেবে।
+
+```javascript
+function traverseTree(x, y, length, angle, depth, branchIndex) {
+  if (depth === 0) return; // Base case
+
+  // ১. বর্তমান ডালের শেষ বিন্দু বের করে ক্যানভাসে আঁকা
+  // ২. depth ও angle অনুযায়ী দফের 'Dum', 'Tak' বা 'Zinj' বিট শিডিউল করা
+
+  // ৩. রিকার্সিভ কল (বাম ও ডান শাখা)
+  traverseTree(endX, endY, length * decay, angle - spread, depth - 1, 0);
+  traverseTree(endX, endY, length * decay, angle + spread, depth - 1, 1);
+}
+```
+
+তাই Fractal Canopy / Recursive Tree নেওয়াই আপনার জন্য সেরা সিদ্ধান্ত—কারণ কোড হিসেবে এটি একদম সহজ ও বেসিক রিকার্সন, কিন্তু দেখার ও শোনার অভিজ্ঞতায় এটি পুরোপুরি একটি প্রফেশনাল মেডিটেশন অ্যাপের মতো লাগবে।
+
+---
+
+### Prompt 7 (User)
+
+```text
+cp te kon recursion ase ?
+```
+
+### Response 7 (AI)
+
+কম্পিটিটিভ প্রোগ্রামিং (CP)-এ সবচেয়ে পরিচিত রিকার্সিভ অ্যালগরিদমগুলো—যেগুলো ভিজ্যুয়ালি এবং ছন্দের (Daf rhythm) মাধ্যমে ফুটিয়ে তোলা সম্ভব—সেগুলো নিচে দেওয়া হলো:
+
+1. **Tower of Hanoi (টাওয়ার অফ হ্যানয় — সবচেয়ে ক্ল্যাসিক ও সেরা):**
+   - **CP ধারণা:** ৩টি পেগ (A, B, C) এবং N সংখ্যক ডিস্ক স্থানান্তরের রিকার্সন ($2^N - 1$ ধাপ)।
+   - **সাউন্ড ও ভিজ্যুয়ালে রূপান্তর:** স্ক্রিনে ৩টি সুন্দর কাঠের বা আলোকিত স্তম্ভে ডিস্কগুলো আপনা-আপনি সরতে থাকবে। সবচেয়ে বড় ডিস্ক সরলে দফের গভীর *Dum* বাজবে, মাঝারি ডিস্কে *Tak*, আর সবচেয়ে ছোট ডিস্কে হালকা *Zinj*—ফলে একটি চমৎকার গাণিতিক ছন্দ তৈরি হবে! (প্যারামিটার: Number of Disks, Move Speed)।
+
+2. **Backtracking (N-Queens বা Maze Pathfinding):**
+   - **CP ধারণা:** রিকার্সিভলি সামনে এগোনো, বাধায় পড়লে পেছনে ফিরে আসা (Backtrack) এবং নতুন পথ খোঁজা।
+   - **সাউন্ড ও ভিজ্যুয়ালে রূপান্তর:** একটি শান্ত জ্যামিতিক গ্রিড বা গোলকধাঁধায় আলোর বিন্দু এগোতে থাকলে ছন্দময় দফের বিট বাজবে, আর ব্যাকট্র্যাক করলে একটি মৃদু বাতাসের শব্দ বা স্ফটিকের মতো মৃদু ছন্দ তৈরি হবে। (প্যারামিটার: Grid Size, Exploration Bias)।
+
+3. **Divide & Conquer (Merge Sort / Quick Sort / Quadtree Decomposition):**
+   - **CP ধারণা:** একটি বড় অ্যারে বা জায়গাকে রিকার্সিভলি অর্ধেক করে ভেঙে সমাধান করা।
+   - **সাউন্ড ও ভিজ্যুয়ালে রূপান্তর:** Quadtree বা Merge Sort-এ প্রতিটি ভাগ (Split) হওয়ার সময় স্ক্রিনে জ্যামিতিক ব্লক তৈরি হবে এবং ছন্দ ভাগ হয়ে দ্রুত হবে (Polyrhythm), আর মার্জ (Merge) হওয়ার সময় গভীর দফের তালের সাথে মিলে যাবে।
+
+4. **DFS / Tree Traversal (Pre-order, In-order, Post-order):**
+   - **CP ধারণা:** একটি গ্রাফ বা বাইনারি ট্রিতে রিকার্সিভ ডেপথ-ফার্স্ট সার্চ (DFS) চালানো।
+   - **সাউন্ড ও ভিজ্যুয়ালে রূপান্তর:** এটিই মূলত আমাদের আগের Fractal Tree-এর মূল লজিক—যেখানে রিকার্সন যত গভীরে (`depth`) যায়, দফের তালের সূক্ষ্মতা তত বাড়ে।
+
+**জাজদের চোখে কোনটি সবচেয়ে বেশি নম্বর আনবে?**
+আপনি যদি বিশুদ্ধ CP রিকার্সন দেখাতে চান, তবে Tower of Hanoi অথবা DFS Fractal Tree সবচেয়ে শক্তিশালী। বিশেষ করে DFS Fractal Tree বা Tower of Hanoi-তে Depth / Disks এবং Speed কন্ট্রোল করা খুব সহজ, কোড মাত্র ২০–৩০ লাইনের, এবং দেখতে ও শুনতে দারুণ রিলাক্সিং।
+
+আপনি কি DFS Fractal Tree দিয়েই এগোবেন, নাকি Tower of Hanoi যোগ করতে চান?
+
+---
+
+### Prompt 8 (User)
+
+```text
+tower of hanoi best hobe ?
+```
+
+### Response 8 (AI)
+
+হ্যাঁ, **Tower of Hanoi** নিঃসন্দেহে সেরা (Best) এবং সবচেয়ে নিরাপদ পছন্দ হবে।
+
+**কেন এটি আপনার জন্য সবচেয়ে ভালো, তার ৩টি বড় কারণ:**
+1. **রিকার্সিভ ছন্দের জাদু (Natural Rhythmic Symmetry):** Tower of Hanoi-এর মুভমেন্টগুলোতে আগে থেকেই একটি প্রাকৃতিক গাণিতিক ছন্দ (Binary/Polyrhythmic pattern) থাকে। ছোট ডিস্কটি প্রতি ২ চাল পরপর নড়ে (দ্রুত তালের মতো), মাঝারি ডিস্কগুলো ধীর তালে নড়ে, আর সবচেয়ে বড় ডিস্কটি একবার নড়লে গভীর দফের (Daf) *Dum* বেজে ওঠে—ফলে কোনো জটিল অ্যালগরিদম ছাড়াই এটি শুনতে ঠিক একটি ধ্যানমগ্ন সুফি দফ তালের মতো লাগবে।
+2. **জাজদের বোঝা খুব সহজ (100% Clear CP Recursion):** বিচারকরা এক পলকেই স্ক্রিনে ৩টি স্তম্ভে ডিস্কগুলোর রিকার্সিভ স্থানান্তর দেখতে পাবেন এবং বুঝতে পারবেন যে রিকার্সন সত্যিই কাজ করছে (Visual Design 10% + Creative Recursion 15%)।
+3. **সময় বাঁচবে (দ্রুততম ইমপ্লিমেন্টেশন):** আজ রাত ১০টায় ডেডলাইন (হাতে প্রায় ৭ ঘণ্টা ২০ মিনিট সময় আছে)। Fractal Tree-তে জ্যামিতিক কো-অর্ডিনেট ও ব্রাঞ্চ ওভারল্যাপ ঠিক করতে গিয়ে বাগ হতে পারে, কিন্তু Tower of Hanoi-এর রিকার্সন লজিক মাত্র ১০ লাইনের—তাই আপনি বাকি পুরো সময়টা এর UI/UX (35%) এবং দফ ও প্রকৃতির সাউন্ড (25%) প্রফেশনাল করার পেছনে দিতে পারবেন।
+
+**Tower of Hanoi + Halal Daf & Nature Soundscape-এর ফাইনাল প্রম্পট:**
+
+```plaintext
+Build a professional, studio-grade single-page creative coding web application titled "Hanoi Soundscapes: Recursive Daf & Nature Sanctuary" using React (JavaScript, no TypeScript overhead), HTML5 Canvas, Tailwind CSS, and the native Web Audio API.
+
+ARCHITECTURE & STACK CONSTRAINTS:
+- 100% Frontend / Client-Side only (No backend, no database, no external audio files). Use `localStorage` to save user's last settings.
+- Lightweight & fast: React hooks (`useState`, `useEffect`, `useRef`), Tailwind CSS for calming glassmorphic UI, and Lucide icons.
+- STRICT AUDIO RULE (100% HALAL): Do NOT use any melodic instruments, pianos, flutes, strings, or tonal synthesizer pads. Use ONLY procedural **Daf (frame drum)** percussion and soothing **nature ambience** (gentle rain, soft wind, flowing water) synthesized natively via Web Audio API.
+
+### 1. Core Recursive Algorithm: Tower of Hanoi (HTML5 Canvas — 60 FPS)
+- Implement the classic **Recursive Tower of Hanoi** algorithm (`hanoi(n, source, auxiliary, target)`) that pre-computes or steps through the recursive moves live.
+- Render 3 minimalist, glowing Zen pillars on a calming deep emerald-twilight background (`#060d0c` to `#0e1f1c`) with subtle floating fireflies/raindrops.
+- Animate the translucent, glowing discs lifting, gliding smoothly in an arc, and settling onto the target pillar with a soft golden-emerald ripple wave on impact.
+- Display a subtle, live **Recursive Call Stack / Depth Indicator** (`Depth: k | Disk #i: A → C`) so judges can see the exact recursion state synchronized with every beat.
+- Include 4 one-click relaxing presets: "Midnight Rain & Daf", "Desert Courtyard Rhythm", "Forest Stream Meditation", and "Deep Focus Pulse".
+
+### 2. User-Configurable Recursion & Rhythm Parameters
+Provide a sleek, collapsible glassmorphic control drawer:
+- **Number of Discs (`3` to `8`)**: Controls recursion depth (`2^N - 1` steps) and rhythmic cycle length.
+- **Tempo / Step Interval (`45` to `100` BPM)**: Controls how smoothly and slowly the recursive moves glide.
+- **Spatial Spread / Pillar Panning (`0%` to `100%`)**: Maps Left Pillar to Left Ear, Center Pillar to Center, and Right Pillar to Right Ear in stereo space.
+- **Acoustic Resonance / Decay (`0.2` to `0.9`)**: Controls the Daf drum tail and courtyard reverb.
+- **Loop Mode Toggle**: Automatically restarts or reverses the Tower of Hanoi recursion seamlessly for endless relaxation.
+
+### 3. Procedural Daf & Nature Web Audio Engine
+Map each recursive disc move directly to authentic Daf percussion:
+- **Largest Discs (Base recursion levels — Deep "Dum")**: Synthesize a warm, pitch-enveloped low sine/triangle drum thump (110Hz dropping smoothly to 55Hz) with soft skin resonance.
+- **Middle Discs (Mid recursion levels — Crisp "Tak")**: Synthesize a filtered high-mid transient + short band-pass noise burst (800Hz–1400Hz) like a goatskin drum rim tap.
+- **Smallest Discs (Leaf recursion levels `1-2` — Soft "Zinj / Shimmer")**: Very gentle, low-volume high-pass filtered metallic jingle/shaker with soft stereo panning.
+- **Nature Ambience Layer (Toggleable + Volume Slider)**: Procedural pink-noise gentle rainfall + slow LFO wind breeze + subtle water droplets.
+
+### 4. Playback Controls & Working Audio Export (Mandatory)
+- Floating bottom transport bar: **Play / Pause** (`Space` shortcut), **Step Forward**, **Reset Recursion**, **Daf Volume**, **Nature Volume**, and **Zen Mode** (`Z` shortcut — hides all UI panels for pure visual + audio meditation).
+- **Working Audio Export**: A "Record & Download Audio" button with a live recording timer using `MediaRecorder` connected to a Web Audio `MediaStreamDestination` so users can download their generated Daf & nature composition directly to their device.
+- Include a clean **"How Recursion Maps to Rhythm"** info modal explaining the Tower of Hanoi call stack and rhythmic symmetry for evaluators.
+```
+
+এখনই এটি চালিয়ে দিন, এবং প্রথম প্রম্পট থেকেই সব প্রম্পট ও AI রেসপন্স একটি `AI_PROMPT_LOGS.md` ফাইলে সেভ করে রাখুন।
+
+---
+
+## Phase 2: Application Implementation Prompt Log
+
+### Build Prompt 1 (User -> Coding Agent)
+
+Submitted the finalized **Tower of Hanoi + Halal Daf & Nature Soundscape** specification prompt verbatim (from Response 8 above) to generate the full client-side React, HTML5 Canvas, Tailwind CSS, and native Web Audio API application.
+
+### Build Response 1 (Coding Agent)
+
+Implemented the complete standalone application across modular source files:
+- `src/hanoi/hanoiAlgorithm.js` — Classic recursive `hanoi(n, source, auxiliary, target)` algorithm emitting live call-stack frames, recursion depth, step counts, and Daf voice mappings (`dum`, `tak`, `zinj`).
+- `src/hanoi/presets.js` — Four curated presets (*Midnight Rain & Daf*, *Desert Courtyard Rhythm*, *Forest Stream Meditation*, *Deep Focus Pulse*) and `localStorage` persistence helpers.
+- `src/audio/dafEngine.js` — Native Web Audio API engine synthesizing strictly percussive Daf voices (*Deep Dum*, *Crisp Tak*, *Soft Zinj*), procedural stone courtyard convolution reverb, stereo pillar panning, seamless pink/brown-noise nature ambience (rain, slow LFO wind, flowing water & fluid droplets), and `MediaRecorder` + `MediaStreamDestination` live export.
+- `src/components/HanoiCanvas.jsx` — 60 FPS DPR-aware HTML5 Canvas rendering 3 glowing Zen pillars, parabolic arc disc glides, golden-emerald impact ripples, floating fireflies, raindrops, and dark pool reflections.
+- `src/components/ControlDrawer.jsx` — Collapsible glassmorphic drawer with presets, disc count (`3–8`), tempo (`45–100 BPM`), spatial spread (`0–100%`), acoustic resonance (`0.2–0.9`), seamless loop reversal toggle, and nature ambience toggle.
+- `src/components/TransportBar.jsx` — Floating bottom transport bar with Play/Pause (`Space`), Step Forward (`→`), Reset (`R`), Daf & Nature mixers, live-timed Record & Download Audio button, and Zen Mode (`Z`).
+- `src/components/RecursionInfoModal.jsx` — "How Recursion Maps to Rhythm" evaluator guide modal.
+- `src/App.jsx` & `src/main.jsx` — Application orchestration, live recursive call-stack telemetry overlay, keyboard shortcuts, and toast notifications.
+
+### Build Prompt 2 (User -> Coding Agent)
+
+Requested adding `prompt.md` (capturing the complete prompt chain starting from the Hub's Quest • Epoch 1 submission brief and ideation thread) and `project_description.md` (documenting the completed application).
